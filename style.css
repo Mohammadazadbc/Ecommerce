@@ -52,6 +52,18 @@ button.normal{
     outline: none;
     transition: 0.2s ease;
 }
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s ease;
+}
 body{
     width: 100%;
 }
@@ -314,3 +326,55 @@ body{
 
  }
 /*Banner End*/
+
+
+/*Smalle banner Start*/
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("https://ae01.alicdn.com/kf/H622225ff9a4944b88f67840997dd9f0al/BOBOKATEER-Christmas-Tee-Femme-T-Camisas.jpg");
+    min-width: 550px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+#sm-banner .banner-box2  {
+    background-image: url('https://ae01.alicdn.com/kf/Hf034f1c52ad440739872c4749ac1f763O/shintimes-Print-Tshirt-Cotton-T-Shirt-Women-Korean-Clothes-2022-Autumn-T-Shirts-Womens-Long-Sleeve.jpg_Q90.jpg_.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+    
+}
+
+/*Smalle Banner End*/
