@@ -40,6 +40,18 @@ p{
 .section-m1{
     margin: 40px 0;
 }
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+}
 body{
     width: 100%;
 }
@@ -198,7 +210,7 @@ body{
 #product1 .pro-container{
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 20px;
 }
@@ -213,6 +225,7 @@ body{
     margin: 15px 0;
     transition: 0.2s ease;
     border-radius: 20px;
+    margin: 10px 5px;
 }
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
@@ -220,6 +233,7 @@ body{
 
 #product1 .pro .item-img{
     width: 100%;
+    height: 250px;
     border-radius: 20px;
 }
 
@@ -263,3 +277,40 @@ body{
     transform: scale(1.05);
 }
 /* Product end*/
+
+
+/*Banner Start*/
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617553__480.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: white;
+    font-size: 16px;
+}
+#banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+#banner h2 span{
+   color: red;
+
+}
+
+#banner button:hover {
+    background-color: #088178;
+    color: white;
+
+ }
+/*Banner End*/
