@@ -378,3 +378,47 @@ body{
 }
 
 /*Smalle Banner End*/
+
+/*Banner 3 Start*/
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("https://i.pinimg.com/736x/a5/a1/1d/a5a11dbe792ce6738a2b2d2ab6b20cf2--shu-qi-beautiful-asian-women.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+#banner3 .banner-box2{
+    background-image: url("https://lh3.googleusercontent.com/jGmsWrB3O0BBfBRZCybhdfk-n4nPrmMwWgKnHqtRaPtHjVsfj35jOF2ky82KbJhy3xChu_-3L0oGe9KYlYNAawgqeisucCQr=w960-rj-nu-e365");
+    background-position: top 15% right 0;
+    background-repeat: no-repeat;
+}
+#banner3 .banner-box3{
+    background-image: url("https://i.pinimg.com/originals/45/a3/8d/45a38d99683d85002d04338caefb0911.jpg");
+    background-position: top 15% right 0;
+    background-repeat: no-repeat;
+}
+#banner3 h2{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+/*Banner 3 End*/
