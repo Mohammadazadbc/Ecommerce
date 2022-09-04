@@ -602,7 +602,35 @@ footer .col .follow .icon img{
     #lg-bag{
         display: none;
     }
+    #hero .div1 h2,#hero .div1 h1 {
+        font-size: 150%
+    }
+    #hero .div1 button {
+        padding: 12px 40px;
+    }
+    #feature{
+        justify-content: center;
+      }
+      #sm-banner{
+        justify-content: center;
+      }
+      #banner3{
+        flex-direction: column;
+      }
   
+}
+
+@media screen and (max-width:691px) {
+  
+    #hero .div2{
+        display: none;
+    }
+    #hero .div1{
+        background-image: url("./assete/modal.jpg");
+        background-repeat: no-repeat;
+        
+    }
+
 }
 
 /*Media qurey end*/
